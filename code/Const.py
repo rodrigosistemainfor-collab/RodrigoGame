@@ -123,9 +123,29 @@ PLAYER_KEY_SHOOT = {'Player1': pygame.K_SPACE,
 # S
 SPAWN_TIME = 5000  # cria quantidade de Enemy em seg
 
+
+
 # T
 TIMEOUT_STEP = 2000  # 20ms
 TIMEOUT_LEVEL = 20000  # 20Seg
 # W
 WIN_WIDTH = 840
 WIN_HEIGHT = 560
+
+#S
+SCORE_POS = {'Title': (WIN_WIDTH / 2, 50),
+             'EnterName': (WIN_WIDTH / 2, 80),
+             'Label': (WIN_WIDTH / 2, 120),
+             'Name': (WIN_WIDTH / 2, 110),
+             0: (WIN_WIDTH / 2, 210),
+             1: (WIN_WIDTH / 2, 230),
+             2: (WIN_WIDTH / 2, 250),
+             3: (WIN_WIDTH / 2, 270),
+             4: (WIN_WIDTH / 2, 290),
+             5: (WIN_WIDTH / 2, 310),
+             6: (WIN_WIDTH / 2, 330),
+             7: (WIN_WIDTH / 2, 350),
+             8: (WIN_WIDTH / 2, 370),
+             9: (WIN_WIDTH / 2, 390),
+
+             }
